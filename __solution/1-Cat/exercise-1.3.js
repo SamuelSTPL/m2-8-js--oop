@@ -15,7 +15,7 @@
 
 class Cat {
   constructor(name, breed) {
-    this.species = 'cat';
+    this.species = "cat";
     this.breed = breed;
     this.name = name;
     this.tiredness = 50;
@@ -40,7 +40,7 @@ class Cat {
   };
 }
 
-const boots = new Cat('Boots', 'Siamese');
+const boots = new Cat("Boots", "Siamese");
 
 // B) call the different methods with appropriate values and then console.log boots to see what happened to the property values.
 

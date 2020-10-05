@@ -12,16 +12,16 @@
 
 class Cat {
   constructor(name, breed) {
-    this.species = 'cat';
     this.breed = breed;
     this.name = name;
-    this.tiredness = 0;
-    this.hunger = 0;
-    this.loneliness = 0;
-    this.happiness = 0;
+    species = "cat";
+    tiredness = 0;
+    hunger = 0;
+    loneliness = 0;
+    happiness = 0;
   }
 }
 
-const boots = new Cat('Boots', 'Siamese');
+const boots = new Cat("Boots", "Siamese");
 
 console.log(boots);

@@ -16,7 +16,7 @@
 
 class Cat {
   constructor() {
-    this.species = 'cat';
+    this.species = "cat";
     this.tiredness = 0;
     this.hunger = 0;
     this.loneliness = 0;
